@@ -1,7 +1,6 @@
 var number = 10
-function multiplier(){
-    var sum = number*10
-    console.log(sum);
+if(true){
+    var sum = number+1;
 }
-multiplier();
-// console.log(sum)  It does not work since the varible sum is defined locally not globally.
+console.log(number);
+console.log(sum);
