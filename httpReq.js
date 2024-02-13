@@ -2,7 +2,10 @@ const http = require('http');
 
 function reqListener(req,res){
     console.log(req);
-    // process.exit();
+    setTimeout(()=>{
+        console.log("Ended");
+        process.exit;
+    },5000);
 }
 const server = http.createServer(reqListener);
 server.listen(3000);
